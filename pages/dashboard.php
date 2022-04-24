@@ -4,7 +4,26 @@
         <div class="btn-toolbar mb-2 mb-md-0">
         </div>
       </div>
-
+      <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card bg-primary" style="height:9rem">
       </div>
-    </main>
+    </div>
+    <div class="col">
+    <div class="card bg-success" style="height:9rem">
+      </div>
+    </div>
+    <div class="col">
+    <div class="card bg-warning" style="height:9rem">
+      </div>
+    </div>
+    <div class="col">
+    <div class="card bg-danger" style="height:9rem">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</main>
   
