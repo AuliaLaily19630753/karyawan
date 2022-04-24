@@ -8,16 +8,20 @@ if(isset($_POST['button_logout'])){
   session_destroy();
   echo '<meta http-equiv="refresh" content="0;url=http://localhost/karyawan">'; 
 }
-?>
 
+?>
 <!doctype html>
 <html lang="en">
 
-<?php include "components/head.php"?>
+<?php 
+include "components/head.php";
+include_once "../database/database.php";
+?>
 
-  <body>
 
-  <?php include "components/header.php"?>
+<body>
+
+<?php include "components/header.php" ?>
 
 <div class="container-fluid">
   <div class="row">
@@ -25,8 +29,7 @@ if(isset($_POST['button_logout'])){
   <?php include "components/nav.php"?>
 
   <?php include "routes.php"?>
-
-  </div>
+ </div>
 </div>
 
 
