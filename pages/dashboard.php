@@ -148,8 +148,6 @@ if(isset($_POST['button_logout'])){
         <div class="btn-toolbar mb-2 mb-md-0">
         </div>
       </div>
-
-      
       <div class="table-responsive">
         <table class="table table-striped table-sm">
           <thead>
