@@ -2,19 +2,19 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="?page=dashboard">
+            <a class="nav-link <?php echo $_GET['page'] == 'dashboard' ? ' active' : '' ?>" aria-current="page" href="?page=dashboard">
               <span data-feather="home"></span>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="?page=karyawan">
+            <a class="nav-link <?php echo $_GET['page'] == 'karyawan' ? ' active' : '' ?>" href="?page=karyawan">
               <span data-feather="users"></span>
               Data Karyawan
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="?page=bagian">
+            <a class="nav-link <?php echo $_GET['page'] == 'bagian' ? ' active' : '' ?>" href="?page=bagian">
               <span data-feather="layers"></span>
               Data Bagian
             </a>
