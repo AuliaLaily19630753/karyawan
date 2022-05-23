@@ -45,7 +45,7 @@
 
     session_start();
     if(isset($_SESION['username'])) {
-      header('Location: pages/dashboard.php');
+     header('Location: pages/main.php');
      }
 
     if(isset($_POST['button_login'])){
@@ -70,7 +70,7 @@
 
 $_SESSION['username'] = $_POST['username'];
 
-header('Location: pages/dashboard.php');
+ header('Location: pages/main.php');
       }else {
         ?>
            <div class="alert alert-danger" role="alert">
